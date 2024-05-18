@@ -51,7 +51,8 @@
             android:layout_marginHorizontal="20dp"
             android:layout_marginTop="15dp"
             android:gravity="center_vertical"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="#F8F8F8">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -100,7 +101,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="44dp"
             android:layout_marginHorizontal="20dp"
             android:gravity="center_vertical"
             android:orientation="horizontal">
@@ -152,7 +153,8 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
             android:layout_marginTop="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@color/grey_5">
 
             <ImageView
                 android:layout_width="25dp"
@@ -170,7 +172,8 @@
                 android:layout_height="89dp"
                 android:text="@string/medium_lorem_ipsum"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="#999999" />
+                android:textColor="#999999"
+                android:background="@color/grey_5"/>
 
         </LinearLayout>
 
@@ -254,25 +257,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:text="" />
+                android:text="Terampil" />
 
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:text="" />
+                android:text="Cekatan" />
 
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:text="" />
+                android:text="Edukatif" />
 
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:text="" />
+                android:text="Bersahabat" />
 
         </com.google.android.material.tabs.TabLayout>
 
@@ -323,11 +326,10 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_centerInParent="true"
                                 android:layout_margin="10dp"
 
-                                app:srcCompat="@android:drawable/btn_star_big_on"
-                                app:tint="@android:color/white" />
+                                app:srcCompat="@android:drawable/btn_star_big_off"
+                                app:tint="@color/white" />
                         </RelativeLayout>
 
                         <TextView
@@ -335,7 +337,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="40dp"
                             android:layout_marginBottom="5dp"
-                            android:text=""
+                            android:text="Ahli Psikologi Anak"
                             android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
                             android:textColor="#37474F"
                             app:fontFamily="sans-serif-medium" />
@@ -346,7 +348,7 @@
                             android:layout_height="wrap_content"
                             android:indeterminate="false"
                             android:max="100"
-                            android:progress="90" />
+                            android:progress="70" />
 
                     </LinearLayout>
 
@@ -398,7 +400,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="40dp"
                             android:layout_marginBottom="5dp"
-                            android:text=""
+                            android:text="Ahli Mengajar"
                             android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
                             android:textColor="#37474F"
                             app:fontFamily="sans-serif-medium" />
@@ -409,7 +411,7 @@
                             android:layout_height="wrap_content"
                             android:indeterminate="false"
                             android:max="100"
-                            android:progress="10" />
+                            android:progress="80" />
 
                     </LinearLayout>
 
@@ -462,7 +464,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_centerInParent="true"
                                 android:layout_margin="2dp"
-                                app:srcCompat="@android:drawable/sym_action_call"
+                                app:srcCompat="@android:drawable/presence_audio_away"
                                 app:tint="@color/grey_5" />
 
                         </RelativeLayout>
@@ -472,7 +474,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="40dp"
                             android:layout_marginBottom="5dp"
-                            android:text=""
+                            android:text="Komunikasi Baik"
                             android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
                             android:textColor="#37474F"
                             app:fontFamily="sans-serif-medium" />
@@ -483,7 +485,7 @@
                             android:layout_height="wrap_content"
                             android:indeterminate="false"
                             android:max="100"
-                            android:progress="80" />
+                            android:progress="70" />
 
                     </LinearLayout>
 
